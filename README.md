@@ -46,3 +46,10 @@ Vulnerabilidades que se piensan tratar en la web
 
 Dada la gran popularidad de Visual Studio Code , no os sorprenderá ver que hay una extensión en el marketplace oficial de VS Code dedicada a compartir código: Polacode, la polaroid para tu código.
 
+## Subir archivos
+
+```bash
+git add .
+git commit -m "La lala"
+git push -u origin main
+```
