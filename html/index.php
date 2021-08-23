@@ -45,7 +45,7 @@
   <!-- Preloader -->
   <div class="animationload">
     <div class="loader">
-        Please Wait....
+        Cargando la matrix....
     </div>
   </div> 
   <!-- End Preloader -->

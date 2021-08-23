@@ -1,5 +1,6 @@
 <?php include("../../header.php"); ?>
 
+
 <title>Command Injection</title>
 <section id="template">
       <div class="container">
@@ -40,12 +41,10 @@
           system("ping -c1 $file");
           echo "</pre>";
           echo "<div class=\"alert alert-success\" role=\"alert\">Tu consulta es: ping -c 1 $file</div>";
-          die;
         }
       }
       ?>
     </div> <!--/.container -->
     </section> <!--/.container
     
-
 <?php include("../../footer.php"); ?>

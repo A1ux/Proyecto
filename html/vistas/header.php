@@ -1,11 +1,6 @@
 <!DOCTYPE html>
-<!--
-	Delex by TEMPLATE STOCK
-	templatestock.co @templatestock
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 
-<html lang="en">
+<html lang="es">
 <head>
   <!-- Meta Tags -->
   <meta charset="utf-8"/>

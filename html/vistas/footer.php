@@ -36,7 +36,4 @@
 
      <!-- Switcher script for demo only -->
     <script type="text/javascript" src="/js/switcher.js"></script>
-
-
-  </body>
 </html>

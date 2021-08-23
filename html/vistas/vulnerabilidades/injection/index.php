@@ -13,8 +13,8 @@
 
         <ul class="list-group">
           <li class="list-group-item active">SQL Injection</li>
-          <li class="list-group-item list-group-item-danger"><a href="simplesqlinjection.php">Simple SQL Injection</a></li>
-          <li class="list-group-item list-group-item-danger"><a href="#">Blind SQL Injection</a></li>
+          <li class="list-group-item list-group-item-danger"><a href="simplesqlinjection.php">Clasico SQL Injection</a></li>
+          <li class="list-group-item list-group-item-danger"><a href="blindsqlinjection.php">Blind SQL Injection</a></li>
           <li class="list-group-item list-group-item-danger">Error Based</li>
           <li class="list-group-item list-group-item-danger">Time Based</li> 
           <li class="list-group-item list-group-item-danger"><a href="loginbypass.php">Login Bypass</a></li>
