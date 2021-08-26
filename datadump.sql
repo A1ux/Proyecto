@@ -9,7 +9,6 @@ create table users(
     PRIMARY KEY(id)
 );
 
-
 create table products(
     id INT NOT NULL AUTO_INCREMENT,
     name varchar(150) NOT NULL,
@@ -17,7 +16,6 @@ create table products(
     stock int not null,
     PRIMARY KEY(id)
 );
-
 
 insert into users(name, password, isAdmin) values ("admin","admin",true);
 insert into users(name, password, isAdmin) values ("mario","mario1234$",false);

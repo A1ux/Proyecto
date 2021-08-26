@@ -25,7 +25,6 @@
                </form>
             </div>
         </div>
-   </body>
 
 <?php
     if (isset($_POST['username']) && isset($_POST['password'])){
