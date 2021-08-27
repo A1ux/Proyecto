@@ -18,11 +18,11 @@
           <li class="list-group-item list-group-item-danger"><a href="errorbased.php">Error Based SQL Injection</a></li>
           <li class="list-group-item list-group-item-danger"> <a href="timebased.php">Blind Time-based SQL Injection</a></li> 
           <li class="list-group-item list-group-item-danger"><a href="loginbypass.php">Login Bypass</a></li>
-          <li class="list-group-item list-group-item-success"><a href="">Mitigacion</a></li> 
+          <li class="list-group-item list-group-item-success"><a href="mitigacionsqli.php">Mitigacion</a></li> 
         </ul>
         <ul class="list-group">
           <li class="list-group-item active"> <a href="commandinjection.php">Command Injection</a></li>
-          <li class="list-group-item list-group-item-success">Mitigacion</li>
+          <li class="list-group-item list-group-item-success"><a href="mitigacionosinjection.php">Mitigacion</a></li>
         </ul>
         <ul class="list-group">
           <li class="list-group-item active">NoSQL Injection</li>

@@ -44,7 +44,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">A1ux</a>
+        <a class="navbar-brand" href="javascript:history.back()"><i class="glyphicon glyphicon-chevron-left color-l-blue"></i></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
