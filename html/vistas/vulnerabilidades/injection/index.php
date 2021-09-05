@@ -23,15 +23,7 @@
         <ul class="list-group">
           <li class="list-group-item active"> <a href="commandinjection.php">Command Injection</a></li>
           <li class="list-group-item list-group-item-success"><a href="mitigacionosinjection.php">Mitigacion</a></li>
-        </ul>
-        <ul class="list-group">
-          <li class="list-group-item active">NoSQL Injection</li>
-          <li class="list-group-item list-group-item-success">Mitigacion</li> 
-        </ul>
-        <ul class="list-group">
-          <li class="list-group-item active">GraphQL Injection (Pendiente)</li>
-          <li class="list-group-item list-group-item-success">Mitigacion</li> 
-        </ul>             
+        </ul>          
     </div> <!--/.container -->
     </section> <!--/.container
 

@@ -14,19 +14,14 @@
         <div class="list-group">
           <a href="https://sqlmap.org/" class="list-group-item">
           <h4 class="list-group-item-heading">sqlmap</h4>
-          <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde voluptas explicabo odit? Nobis ipsam rerum vitae repellat sequi ducimus nemo. Consequatur, cupiditate? Odio ab neque error mollitia amet dolor ullam.</p>
+          <p class="list-group-item-text">sqlmap es una herramienta desarrollada en python para realizar inyección de código sql automáticamente. Su objetivo es detectar y aprovechar las vulnerabilidades de inyección SQL en aplicaciones web. Una vez que se detecta una o más inyecciones SQL en el host de destino, el usuario puede elegir entre una variedad de opciones entre ellas, enumerar los usuarios, los hashes de contraseñas, los privilegios, las bases de datos , O todo el volcado de tablas / columnas específicas del DBMS , ejecutar  su propio SQL SELECT, leer archivos específicos en el sistema de archivos y mucho más.</p>
           </a>
-          <a href="#" class="list-group-item">
-          <h4 class="list-group-item-heading">lkasdlakslk</h4>
-          <p class="list-group-item-text">Es una He</p>
-          </a>
-          <a href="#" class="list-group-item">
-          <h4 class="list-group-item-heading">SQLMap</h4>
-          <p class="list-group-item-text">Es una He</p>
-          </a>
-          <a href="#" class="list-group-item">
-          <h4 class="list-group-item-heading">SQLMap</h4>
-          <p class="list-group-item-text">Es una He</p>
+        </div>
+        <h2>Command Injection</h2>
+        <div class="list-group">
+          <a href="https://sqlmap.org/" class="list-group-item">
+          <h4 class="list-group-item-heading">commix</h4>
+          <p class="list-group-item-text">Commix es un acrónimo de COMMand Injection eXploiter que nos va a permitir analizar rápidamente una página web para comprobar si es segura o tiene alguna vulnerabilidad y, de ser así, comprobar si es posible explotar dicha vulnerabilidad. Esta herramienta se centra principalmente en las vulnerabilidades de inyección de comandos a través de ciertos parámetros y cadenas vulnerables que puedan residir en un servidor web.</p>
           </a>
         </div>
 

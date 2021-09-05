@@ -18,11 +18,16 @@
         </ul> 
         <h2>SQL Injection Prevention</h2>
         <ul class="list-group">
-          <li class="list-group-item"><a href="https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html" target="_blank">Hacktricks SQL Injection</a></li>
-
-          https://www.acunetix.com/blog/articles/prevent-sql-injection-vulnerabilities-in-php-applications/
-          https://blog.sqreen.com/preventing-sql-injections-in-php-and-other-vulnerabilities/
-        </ul> 
+          <li class="list-group-item"><a href="https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html" target="_blank">OWASP SQL Injection Prevention</a></li>
+          <li class="list-group-item"><a href="https://www.acunetix.com/blog/articles/prevent-sql-injection-vulnerabilities-in-php-applications/" target="_blank">Acunetix SQL Injection Prevention</a></li>
+        </ul>
+        <h2>Command Injection</h2>
+        <li class="list-group-item"><a href="https://portswigger.net/web-security/os-command-injection" target="_blank">Portswigger Command Injection</a></li>
+        <li class="list-group-item"><a href="https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Injection" target="_blank">PayloadsAllTheThings Command Injection</a></li>
+        <li class="list-group-item"><a href="https://book.hacktricks.xyz/pentesting-web/command-injection" target="_blank">Hacktricks Command Injection</a></li>
+        <h2>Command Injection Prevention</h2> 
+        <li class="list-group-item"><a href="https://www.stackhawk.com/blog/php-command-injection/" target="_blank">StackHawk Command Injection Prevention</a></li>
+        <li class="list-group-item"><a href="https://cheatsheetseries.owasp.org/cheatsheets/OS_Command_Injection_Defense_Cheat_Sheet.html" target="_blank">OWASP Command Injection Prevention</a></li>
 
     </div> <!--/.container -->
     </section> <!--/.container

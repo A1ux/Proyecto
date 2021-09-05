@@ -13,10 +13,12 @@
 
         <ul class="list-group">
           <li class="list-group-item active">XSS</li>
-          <li class="list-group-item">XSS Reflejado</li>
-          <li class="list-group-item">XSS Almacenado</li>
-          <li class="list-group-item">XSS Basado en DOM</li>
-          <li class="list-group-item">Inyectar XSS saltando CSP</li>
+          <li class="list-group-item list-group-item-danger"><a href="xssreflejado.php">XSS Reflejado</a></li>
+          <li class="list-group-item list-group-item-danger"><a href="xssalmacenado.php">XSS Almacenado</a></li>
+          <li class="list-group-item list-group-item-danger"><a href="xssdom.php">Basado en DOM</a></li></a></li>
+          <li class="list-group-item list-group-item-danger"><a href="bypassCSP.php">Inyectar XSS saltando CSP</a></li>
+          <li class="list-group-item list-group-item-success"><a href="mitigacion.php">Mitigacion</a></li>
+          <a href="#"></a>
         </ul>
     </div> <!--/.container -->
     </section> <!--/.container
