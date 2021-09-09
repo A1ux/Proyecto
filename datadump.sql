@@ -17,6 +17,14 @@ create table products(
     PRIMARY KEY(id)
 );
 
+create table comentarios(
+    id INT NOT NULL AUTO_INCREMENT,
+    usuario varchar(100) NOT NULL,
+    comentario varchar(255),
+    primary key (id)
+);
+
+
 insert into users(name, password, isAdmin) values ("admin","admin",true);
 insert into users(name, password, isAdmin) values ("mario","mario1234$",false);
 insert into users(name, password, isAdmin) values ("ramiro","ramiro123",false);

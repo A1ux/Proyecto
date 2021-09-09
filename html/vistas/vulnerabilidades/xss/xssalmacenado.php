@@ -12,27 +12,60 @@
         </div>
 
 
-<form role="form">
+<form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
   <div class="form-group">
-    <label for="email">Email address:</label>
-    <input type="email" class="form-control" id="email">
+    <label for="username">Usuario:</label>
+    <input type="text" class="form-control" name="username">
   </div>
   <div class="form-group">
-    <label for="pwd">Password:</label>
-    <input type="password" class="form-control" id="pwd">
+    <label for="pwd">Comentario:</label>
+    <textarea class="form-control" name="comentario" rows="3"></textarea>
   </div>
-  <div class="checkbox">
-    <label><input type="checkbox"> Remember me</label>
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+  <button type="submit" class="btn btn-default">Comentar</button>
 </form>
+
 <?php
-    //comentario llevaria
-    //nombre, comentario, pagina
+    $servername = "172.16.243.6";
+    $username = "root";
+    $password = "12345678";
+    $db = 'proyecto';
+
+    $conn = new mysqli($servername, $username, $password, $db);
+
+    if ($conn->connect_error) {
+      die("Conexion con base de datos incorrecta");
+    }
+
+    if (isset($_POST["username"]) && isset($_POST["comentario"])){
+      $stmt = $conn->prepare("insert into comentarios (usuario,comentario) values (?,?)");
+      $stmt->bind_param('ss', $_POST['username'],$_POST['comentario']);
+      if ($stmt->execute()){
+        echo "<div class=\"alert alert-success\" role=\"alert\">Comentario agregadeo</div>";
+        echo("<meta http-equiv='refresh' content='1'>");
+      }else{
+        echo "<div class=\"alert alert-success\" role=\"alert\">Error al agregar comentario</div>";
+      }
+    }else{
+      $stmt = $conn->prepare('SELECT usuario,comentario from comentarios');
+      $stmt->execute();
+      $result = $stmt->get_result();
+        while ($row=$result->fetch_assoc()){
+          echo "<div class='media'>
+          <div class='media-left media-middle'>
+          </div>
+          <div class='media-body'>";
+          echo "<div class='media-body'>
+          <h4 class='media-heading'>".$row['usuario']."</h4>";
+          echo "<p>".$row['comentario']."</p>";
+          echo "</div></div>";
+        }
+    }
+
+
 ?>
 
     </div> <!--/.container -->
     </section> <!--/.container
-    
+
 
 <?php include("../../footer.php"); ?>

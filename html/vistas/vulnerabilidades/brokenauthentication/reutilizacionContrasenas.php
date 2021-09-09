@@ -13,7 +13,7 @@
 
         <div class="login">
             <div class="account-login">
-               <h1>Inicio de Sesion</h1>
+               <h1>Cambiar Contrasena</h1>
                <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" class="login-form" method="post">
                   <div class="form-group">
                      <input type="text" placeholder="Usuario" class="form-control" name="username">
@@ -21,7 +21,7 @@
                   <div class="form-group">
                      <input type="password" placeholder="Contrasena"  class="form-control" name="password">
                   </div>
-                  <input type="submit" class="btn" value="Iniciar Sesion">
+                  <input type="submit" class="btn" value="Crear">
                </form>
             </div>
         </div>
