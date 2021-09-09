@@ -13,11 +13,12 @@
 
         <ul class="list-group">
           <li class="list-group-item active">Contraseñas</li>
-          <li class="list-group-item">Reutilizacion de contraseñas</li>
-          <li class="list-group-item"><a href="#">Contraseñas debiles</a></li>
-          <li class="list-group-item">Fuerza Bruta</li>
-          <li class="list-group-item">Recuperacion de contraseñas debiles</li>
-          <li class="list-group-item">Almacenamiento texto claro</li> 
+          <li class="list-group-item list-group-item-danger"><a href="reutilizacionContrasenas.php">Reutilizacion de contraseñas</a></li>
+          <li class="list-group-item list-group-item-danger"><a href="contrasenasdebiles.php">Contraseñas debiles</a></li>
+          <li class="list-group-item list-group-item-danger"><a href="fuerzabruta.php">Fuerza Bruta</a></li>
+          <li class="list-group-item list-group-item-danger"><a href="recuperacioncontrasena.php">Recuperacion de contraseñas debiles</a></li>
+          <li class="list-group-item list-group-item-danger"><a href="almacenamientotextoclaro.php">Almacenamiento texto claro o encriptado sin salt</a></li> 
+          <li class="list-group-item list-group-item-success"><a href="mitigacion.php">Mitigacion</a></li>
         </ul>        
     </div> <!--/.container -->
     </section> <!--/.container
