@@ -18,6 +18,6 @@
           <li class="list-group-item list-group-item-success"><a href="mitigacion.php">Mitigacion</a></li>
         </ul>
     </div> <!--/.container -->
-    </section> <!--/.container
+    </section> 
 
 <?php include("../../footer.php"); ?>

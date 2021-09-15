@@ -41,7 +41,7 @@ Vulnerabilidades que se piensan tratar en la web
 
 - https://github.com/OWASP/Top10/blob/master/2017/es/
 - https://cheatsheetseries.owasp.org/
-
+- https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Insecure%20Deserialization/PHP.md
 
 
 Dada la gran popularidad de Visual Studio Code , no os sorprenderá ver que hay una extensión en el marketplace oficial de VS Code dedicada a compartir código: Polacode, la polaroid para tu código.

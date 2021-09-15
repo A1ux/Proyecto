@@ -12,7 +12,7 @@
         </div>
 
         <ul class="list-group">
-          <li class="list-group-item active">Serializacion PHP</li>
+          <li class="list-group-item active"><a href="insecuredes.php">Serializacion PHP</a></li>
         </ul>
     </div> <!--/.container -->
     </section> <!--/.container

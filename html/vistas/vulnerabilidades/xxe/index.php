@@ -12,10 +12,7 @@
         </div>
 
         <ul class="list-group">
-          <li class="list-group-item active">XXE</li>
-          <li class="list-group-item">Error Based</li>
-          <li class="list-group-item">Blind XXE</li>
-          <li class="list-group-item">DTD</li> 
+          <li class="list-group-item active"><a href="xxe.php">XXE</a></li>
         </ul>
     </div> <!--/.container -->
     </section> <!--/.container
