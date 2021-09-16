@@ -1,0 +1,2 @@
+usuario: admin
+nota: Mi password es 1234567
