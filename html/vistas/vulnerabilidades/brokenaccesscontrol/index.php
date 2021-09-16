@@ -13,12 +13,11 @@
 
         <ul class="list-group">
           <li class="list-group-item active">Control de Acceso</li>
-          <li class="list-group-item">Funcionalidad de Administracion Desprotegido</li>
-          <li class="list-group-item">Rol de Admin Modificable</li>
-          <li class="list-group-item">Cookie predecible y Editable</li>
-          <li class="list-group-item">Modificacion de datos de otro usuario</li>
-          <li class="list-group-item">IDOR</li>
-          <li class="list-group-item">Tokens JWT</li>
+          <li class="list-group-item"><a href="admindesprotegido.php">Funcionalidad de Administracion Desprotegido</a></li>
+          <li class="list-group-item"><a href="roladminmodificable.php">Rol de Admin Modificable</a></li>
+          <li class="list-group-item"><a href="cookievuln.php">Cookie predecible y Editable</a></li>
+          <li class="list-group-item"><a href="modificacionusuarios.php">Modificacion de datos de otro usuario</a></li>
+          <li class="list-group-item"><a href="idor.php">IDOR</a></li>
         </ul>
     </div> <!--/.container -->
     </section> <!--/.container

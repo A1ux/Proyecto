@@ -1,12 +1,12 @@
 <?php include("../../header.php"); ?>
 
-    <title>Deserializacion Insegura</title>
+    <title>Uso de componentes con vulnerabilidades Conocidas</title>
     
     <section id="injection">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h3 class="title text-center">Deserializacion Insegura</h3>
+            <h3 class="title text-center">Uso de componentes con vulnerabilidades Conocidas</h3>
             <div class="titleHR"><span></span></div>
           </div>
         </div>

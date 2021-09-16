@@ -248,11 +248,9 @@
     <!-- / End services-->
 
     <!-- FOOTER begings -->
-    <footer id="footer">    
       <div class="footer-bottom text-center"> <!-- Footer-copyright -->
         <p>©2021 Santos. Design By <a href="http://a1ux.github.io">Cristian Santos aka A1ux</a></p>
       </div>
-    </footer>
     <!-- End footer begings -->
 
 
