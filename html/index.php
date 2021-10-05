@@ -230,18 +230,6 @@
                   </div>
                 </div>
               </div>
-    
-              <div class="col-sm-4"> <!-- Service-item -->
-                <div class="text-center services-item">
-                  <div class="col-wrapper">
-                    <div class="icon-border"> 
-                      <i class="icon-streamline-umbrella-weather color-l-pink"></i> 
-                    </div>
-                    <h5><a href="/vistas/vulnerabilidades/top10plus/index.php">TOP 10++</a></h5>
-                    <p>Otras vulnerabilidades que aunque no esten en el top siguen presentandose en muchos de las aplicaciones web.</p>
-                  </div>
-                </div>
-              </div>
         </div> <!--/.row -->
       </div> <!--/.container -->
 

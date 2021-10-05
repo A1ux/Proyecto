@@ -13,10 +13,9 @@
 
         <ul class="list-group">
           <li class="list-group-item active">Cifrado</li>
-          <li class="list-group-item">Transmision de datos con protocolos seguros</li>
-          <li class="list-group-item">Algoritmos de cifrado obsoletos</li>
-          <li class="list-group-item">Claves criptograficas debiles</li>
-          <li class="list-group-item">CSP</li>
+          <li class="list-group-item"><a href="protocolosseguros.php">Transmision de datos con protocolos seguros</a></li>
+          <li class="list-group-item"><a href="cifradosobsoletos.php">Algoritmos de cifrado obsoletos y debiles</a></li>
+          <li class="list-group-item"><a href="contrasenasalmacenadas.php">Contrasenas fuertemente almacenadas</a></li>
         </ul>        
     </div> <!--/.container -->
     </section> <!--/.container

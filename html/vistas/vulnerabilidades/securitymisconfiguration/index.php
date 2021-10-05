@@ -13,11 +13,9 @@
 
         <ul class="list-group">
           <li class="list-group-item active">Inseguridad</li>
-          <li class="list-group-item">Cabeceras de Seguridad</li>
-          <li class="list-group-item">Software Desactualizado</li>
-          <li class="list-group-item">Software con vulnerabilidades</li>
-          <li class="list-group-item">Mensajes de Error de lado Cliente</li>
-          <li class="list-group-item">Cuentas predeterminadas sin cambios</li>
+          <li class="list-group-item"><a href="cabeceraseguridad.php">Cabeceras de Seguridad</a></li>
+          <li class="list-group-item"><a href="softwaredesactualizado.php">Software Desactualizado</a></li>
+          <li class="list-group-item"><a href="erroresladocliente.php">Mensajes de Error de lado Cliente</a></li>
         </ul>
     </div> <!--/.container -->
     </section> <!--/.container

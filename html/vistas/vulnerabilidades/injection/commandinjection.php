@@ -17,7 +17,9 @@
 
       <h2>Ejecucion de Comando</h2>
 
-      <p>Esta prueba emula una ejecucion de comandos, se solicita al usuario ingresar una ip para realizar ping y en pantalla mostrar el resultado, pero se puede ingresar otros comandos sabiendo que este esta ejecutado sobre un sistema Linux</p>
+      <p>Esta prueba emula una ejecucion de comandos, se solicita al usuario ingresar una ip para realizar ping y en pantalla mostrar el resultado, pero se puede ingresar otros comandos sabiendo que este esta ejecutado sobre un sistema Linux. El codigo que se ejecuta es el siguiente:</p>
+
+      <pre>&lt;&quest;php&NewLine;      if &lpar;&dollar;&lowbar;SERVER&lsqb;&quot;REQUEST&lowbar;METHOD&quot;&rsqb; &equals;&equals; &quot;POST&quot;&rpar; &lcub;&NewLine;        &sol;&sol; collect value of input field&NewLine;        &dollar;file &equals; &dollar;&lowbar;POST&lsqb;&apos;fname&apos;&rsqb;&semi;&NewLine;        if &lpar;empty&lpar;&dollar;file&rpar;&rpar; &lcub;&NewLine;          echo &quot;&lt;div class&equals;&quot;alert alert-danger&quot; role&equals;&quot;alert&quot;&gt;No se coloco ip&lt;&sol;div&gt;&quot;&semi;&NewLine;        &rcub; else &lcub;&NewLine;          echo &quot;&lt;pre&gt;&quot;&semi;&NewLine;          system&lpar;&quot;ping -c1 &dollar;file&quot;&rpar;&semi;&NewLine;          echo &quot;&lt;&sol;pre&gt;&quot;&semi;&NewLine;          echo &quot;&lt;div class&equals;&quot;alert alert-success&quot; role&quot;alert&quot;&gt;Tu consulta es&colon; ping -c 1 &dollar;file&lt;&sol;div&gt;&quot;&semi;&NewLine;        &rcub;&NewLine;      &rcub;&NewLine;&quest;&gt;</pre>
 
       <p>Al analizar la web esto nos puede recordar a los resultados que arroja el ejecutar <strong>ping -c1 $ip</strong>, dando a una idea a un atacante de inyectar codigo para ejecutar algo mas que solo un ping hacia una ip</p>
 
