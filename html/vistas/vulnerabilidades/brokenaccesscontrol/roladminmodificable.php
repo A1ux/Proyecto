@@ -19,19 +19,13 @@ if (!isset($_COOKIE["isAdmin"])){
           </div>
         </div>
 
-
-
 <?php
 if(count($_COOKIE) > 0) {
-  echo "Cookies habilitadas<br>";
   if ($_COOKIE["isAdmin"] == "1"){
     echo "<div class=\"alert alert-success\" role=\"alert\"><strong>Eres un usuario Admin</strong></div>";
   }else{
     echo "<div class=\"alert alert-success\" role=\"alert\"><strong>Eres un usuario sin permisos</strong></div>";
   }
-}else{
-  echo "Cookies deshabilitadas";
-  setcookie("admin", "0", time() + 3600, '/');
 }
 ?>
 

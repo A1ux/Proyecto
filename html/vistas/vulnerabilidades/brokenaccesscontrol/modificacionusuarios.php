@@ -14,10 +14,10 @@
 
         <div class="login">
             <div class="account-login">
-               <h1>Inicio de Sesion</h1>
+               <h1>Cambio de Contrasena</h1>
                <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" class="login-form" method="post">
                   <div class="form-group">
-                     <input type="text" placeholder="Usuario" class="form-control" name="username">
+                     <input type="hidden" placeholder="Usuario" class="form-control" name="username" value="usuario1">
                   </div>
                   <div class="form-group">
                      <input type="password" placeholder="Contrasena actual"  class="form-control" name="password">
@@ -31,6 +31,10 @@
         </div>
 
 <?php
+
+if (isset($_POST['username'])){
+   echo "<br><div class=\"alert alert-success\" role=\"alert\"><strong>Ha cambiado la contrasena de ".$_POST['username']."</strong></div>";
+}
 
 ?>
 

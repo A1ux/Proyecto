@@ -41,3 +41,37 @@ insert into products(name, price, stock) values ("Producto 7", 15, 150);
 insert into products(name, price, stock) values ("Producto 8", 13.5, 100);
 insert into products(name, price, stock) values ("Producto 9", 10, 70);
 insert into products(name, price, stock) values ("Producto 10", 5.50, 10);
+
+create database if not exists csantos;
+
+use csantos;
+
+create table usuarios(
+    correo varchar(100) not null,
+    contrasena varchar(100) not null,
+    fechacreacion date not null,
+    primary key (correo)
+);
+
+create table conferencistas(
+    correo varchar(100) not null,
+    nombre varchar(100) not null,
+    apellido varchar(100) not null,
+    profesion varchar(100) not null,
+    biografia varchar(250) not null,
+    primary key(correo)
+);
+
+create table conferencias(
+    nombre varchar(100) not null,
+    correo_Conferencistas varchar(100) not null,
+    foreign key (correo_Conferencistas) 
+    references conferencistas(correo)
+);
+
+create table asistentes(
+    correo varchar(100) not null,
+    nombre varchar(100) not null,
+    apellido varchar(100) not null,
+    primary key (correo)
+);

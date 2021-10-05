@@ -1,7 +1,14 @@
 <?php
+if (isset($_POST['username']) && $_POST['username'] != 'admin'){
+  setcookie("id", base64_encode($_POST['username']), time() + (86400 * 30), "/");  
+  //$_COOKIE["id"] = $_POST['username'];
+}
+?>
+
+<?php
 if (!isset($_COOKIE["id"])){
     $admin = "id";
-    $admin_value = "";
+    $admin_value = "aW52aXRhZG8K";
     setcookie($admin, $admin_value, time() + (86400 * 30), "/");
 }
 ?>
@@ -36,20 +43,12 @@ if (!isset($_COOKIE["id"])){
 <br>
 
 <?php
-if (isset($_POST['username']) && $_POST['username'] != 'admin'){
-    $_COOKIE["id"] = md5($_POST['username']);
-}
-?>
-
-<?php
 if(count($_COOKIE) > 0) {
-  if ($_COOKIE["id"] == "21232f297a57a5a743894a0e4a801fc3"){
+  if ($_COOKIE["id"] == "YWRtaW4K"){
     echo "<div class=\"alert alert-success\" role=\"alert\"><strong>Eres un usuario Admin</strong></div>";
   }else{
     echo "<div class=\"alert alert-success\" role=\"alert\"><strong>Eres un usuario sin permisos</strong></div>";
   }
-}else{
-  setcookie("usuario", "", time() + 3600, '/');
 }
 ?>
 
