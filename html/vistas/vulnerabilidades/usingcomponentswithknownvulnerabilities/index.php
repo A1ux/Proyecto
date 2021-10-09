@@ -11,11 +11,13 @@
           </div>
         </div>
 
+        <a href=""></a>
+
         <ul class="list-group">
           <li class="list-group-item active">Componentes</li>
-          <li class="list-group-item">Sofware Vulnerable con CVE</li>
-          <li class="list-group-item">Sofware no parcheado</li>
-          <li class="list-group-item">No conocimiento de version de software</li>
+          <li class="list-group-item"><a href="cvevulnerable.php">Sofware Vulnerable con CVE</a></li>
+          <li class="list-group-item"><a href="softnoparcheado.php">Sofware no parcheado</a></li>
+          <li class="list-group-item"><a href="noconocimientosoftware.php">No conocimiento de version de software</a></li>
         </ul>
     </div> <!--/.container -->
     </section> <!--/.container

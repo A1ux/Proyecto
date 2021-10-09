@@ -7,5 +7,5 @@ $info = simplexml_import_dom($dom);
 $email = $info->email;
 $password = $info->password;
 
-echo "Sorry, $email is already registered!";
+echo "Lo siento, $email ya esta registrado!";
 ?>

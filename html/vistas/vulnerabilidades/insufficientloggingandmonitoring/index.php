@@ -11,20 +11,15 @@
           </div>
         </div>
 
+        <a href=""></a>
+
         <ul class="list-group">
-          <li class="list-group-item active">Registro</li>
-          <li class="list-group-item">Registros de inicios de sesion, fallos y transacciones</li>
-          <li class="list-group-item">Registro de aplicaciones</li>
-          <li class="list-group-item">Registros poco claros, inadecuados o ninguno</li>
-          <li class="list-group-item">Registros unicamente de forma local</li>
+          <li class="list-group-item active"><a href="registro.php">Registro</a></li>
         </ul>
         <ul class="list-group">
-          <li class="list-group-item active">Monitoreo</li>
-          <li class="list-group-item">Monitoreo de Aplicaciones</li>
-          <li class="list-group-item">Pruebas de penetracion sin alertar</li>
-          <li class="list-group-item">Aplicacion sin detectar y alertar sobre ataques en tiempo real</li>
+          <li class="list-group-item active"><a href="monitoreo.php">Monitoreo</a></li>
         </ul>
     </div> <!--/.container -->
-    </section> <!--/.container
+    </section> 
 
 <?php include("../../footer.php"); ?>

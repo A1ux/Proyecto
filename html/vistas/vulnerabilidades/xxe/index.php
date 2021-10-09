@@ -13,6 +13,7 @@
 
         <ul class="list-group">
           <li class="list-group-item active"><a href="xxe.php">XXE</a></li>
+          <li class="list-group-item"><a href="mitigacion.php">Mitigacion</a></li>
         </ul>
     </div> <!--/.container -->
     </section> <!--/.container

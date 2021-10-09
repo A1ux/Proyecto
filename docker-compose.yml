@@ -28,21 +28,6 @@ services:
     networks:
       my_net:
         ipv4_address: 172.16.243.6
-  ldap:
-    container_name: ldapserver
-    ports:
-      - '1389:1389'
-      - '1636:1636'
-    image: bitnami/openldap:2
-    environment:
-      - LDAP_ADMIN_USERNAME=admin
-      - LDAP_ADMIN_PASSWORD=adminpassword
-      - LDAP_USERS=user01,user02
-      - LDAP_PASSWORDS=password1,password2
-    networks:
-      my_net:
-        ipv4_address: 172.16.243.7
-    #volumes:
 networks:
   my_net:
     driver: bridge
