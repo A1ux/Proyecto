@@ -11,29 +11,9 @@
           </div>
         </div>
 
-        <h1>FALTA</h1>
-<?php 
-    class PHPObjectInjection{
-        public $inject;
-        function __construct(){
-        }
-        function __wakeup(){
-            if(isset($this->inject)){
-                eval($this->inject);
-            }
-        }
-    }
-    if(isset($_REQUEST['datos'])){  
-        $var1=unserialize($_REQUEST['datos']);
-        if(is_array($var1)){
-            echo "<br/>".$var1[0]." - ".$var1[1];
-        }
-    }
-    else{
-        echo "Ingrese una peticion get en el valor 'datos'"; # nothing happens here
-    }
-?>
+        <p>Esta vulnerabilidad como muchas es agregar pequenos filtros a la aplicacion para evitar que el usuario inyecte solicitudes que no debe o en formatos que puedan arruinar la aplicacion.</p>
 
+        <p>En este caso se debe evitar enviar objetos serializados, lo mejor sera verificar el uso de unserialize de php y enviar todos los datos en un formato de json hacia el usuario, siempre evitando que pueda modificar esos datos que son ingresados para poder hacerse con un administrador o ejecucion de comandos.</p>
 
     </div> <!--/.container -->
     </section> 
