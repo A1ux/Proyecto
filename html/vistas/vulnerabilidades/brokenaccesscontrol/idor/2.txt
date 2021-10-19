@@ -1,2 +1,0 @@
-usuario: jorge
-nota: Es una simple nota

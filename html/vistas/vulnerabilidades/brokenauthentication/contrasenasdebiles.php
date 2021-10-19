@@ -25,6 +25,19 @@
                </form>
             </div>
         </div>
+<br>
+<?php
+    if (isset($_POST['username']) && isset($_POST['password'])){
+      
+   $reg = '/^(?=.*[!@#$%^&*-])(?=.*[0-9])(?=.*[A-Z]).{8,20}$/';
+   
+   if (preg_match($reg, $_POST['password'])){
+      echo "<div class=\"alert alert-success\" role=\"alert\">Contrasena aceptable</div>";
+   }else{
+      echo "<div class=\"alert alert-success\" role=\"alert\">Contrasena debil</div>";
+   }
+    }
+?>
 
     </div> <!--/.container -->
     </section>

@@ -18,7 +18,6 @@
           <li class="list-group-item list-group-item-danger"><a href="fuerzabruta.php">Fuerza Bruta</a></li>
           <li class="list-group-item list-group-item-danger"><a href="recuperacioncontrasena.php">Recuperacion de contraseñas debiles</a></li>
           <li class="list-group-item list-group-item-danger"><a href="almacenamientotextoclaro.php">Almacenamiento texto claro o encriptado sin salt</a></li> 
-          <li class="list-group-item list-group-item-success"><a href="mitigacion.php">Mitigacion</a></li>
         </ul>        
     </div> <!--/.container -->
     </section> <!--/.container

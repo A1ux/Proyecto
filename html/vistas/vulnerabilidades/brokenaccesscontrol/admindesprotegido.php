@@ -10,6 +10,7 @@
             <div class="titleHR"><span></span></div>
           </div>
         </div>
+        <!-- Administracion /vistas/vulnerabilidades/brokenaccesscontrol/admin.php -->
 
         <p>Otro punto a tener en cuenta en la seguridad es la manera en que se protege modulos de la aplicacion, existen siempre directorios o rutas para poder administrar la aplicacion que es para el superusuario que permite hacer todo en la aplicacion.</p>
 

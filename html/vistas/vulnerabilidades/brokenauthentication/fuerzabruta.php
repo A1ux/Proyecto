@@ -11,6 +11,9 @@
           </div>
         </div>
 
+
+
+
         <div class="login">
             <div class="account-login">
                <h1>Inicio de Sesion</h1>
@@ -25,6 +28,22 @@
                </form>
             </div>
         </div>
+
+<?php
+    if (isset($_POST['username']) && isset($_POST['password'])){
+      
+      require "connection.php";
+
+      $var_consulta= "select * from users where name = '".$_POST["username"]."' and "." password = '".$_POST["password"]."';";
+      $var_resultado = $obj_conexion->query($var_consulta);
+      
+      if($var_resultado->num_rows>0){
+        echo "<h3 style=\"color: green\">Inicio de sesion exitoso</h3>";
+      }else{
+        echo "<h3 style=\"color: red\">Datos incorrectos</h3>";
+      }
+    }
+?>
 
     </div> <!--/.container -->
     </section>

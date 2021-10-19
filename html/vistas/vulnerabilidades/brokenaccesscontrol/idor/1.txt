@@ -1,2 +1,0 @@
-usuario: Jorge
-nota: Ir al museo

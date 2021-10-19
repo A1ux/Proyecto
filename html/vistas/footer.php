@@ -1,6 +1,6 @@
     <!-- FOOTER begings -->   
       <div class="footer-bottom text-center"> <!-- Footer-copyright -->
-        <p>©2021 Santos. Design By <a href="http://a1ux.github.io">Cristian Santos a.k.a A1ux</a></p>
+        <p>©2021 Santos. Hecho por <a href="http://a1ux.github.io">Cristian Santos a.k.a A1ux</a></p>
       </div>
     <!-- End footer begings -->
 
