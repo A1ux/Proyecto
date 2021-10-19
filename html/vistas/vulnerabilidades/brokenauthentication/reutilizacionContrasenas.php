@@ -11,20 +11,7 @@
           </div>
         </div>
 
-        <div class="login">
-            <div class="account-login">
-               <h1>Cambiar Contrasena</h1>
-               <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" class="login-form" method="post">
-                  <div class="form-group">
-                     <input type="text" placeholder="Usuario" class="form-control" name="username">
-                  </div>
-                  <div class="form-group">
-                     <input type="password" placeholder="Contrasena"  class="form-control" name="password">
-                  </div>
-                  <input type="submit" class="btn" value="Crear">
-               </form>
-            </div>
-        </div>
+        <p>Las contrasenas forman parte del dia a dia para poder entrar a los sistemas, es el uso cotidiano y lo mas normal. Pero existe otro punto a tomar en cuenta siempre y es que las aplicaciones deberian tener un control sobre las contrasenas, la reutilizacion de contrasenas juega un papel muy importante ya que aunque la contrasena pida cambio cada cierto tiempo no servira de nada si se siguen utilizando contrasenas que han sidos utilizadas antes por el usuario.</p>
 
     </div> <!--/.container -->
     </section>

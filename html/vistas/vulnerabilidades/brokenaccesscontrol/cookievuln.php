@@ -1,17 +1,18 @@
 <?php
-if (isset($_POST['username']) && $_POST['username'] != 'admin'){
-  setcookie("id", base64_encode($_POST['username']), time() + (86400 * 30), "/");  
-  //$_COOKIE["id"] = $_POST['username'];
-}
-?>
-
-<?php
 if (!isset($_COOKIE["id"])){
     $admin = "id";
     $admin_value = "aW52aXRhZG8K";
     setcookie($admin, $admin_value, time() + (86400 * 30), "/");
 }
 ?>
+<?php
+if (isset($_POST['username']) && $_POST['username'] != 'admin'){
+  setcookie("id", base64_encode($_POST['username']), time() + (86400 * 30), "/");  
+  //$_COOKIE["id"] = $_POST['username'];
+}
+?>
+
+
 
 <?php include("../../header.php"); ?>
 
