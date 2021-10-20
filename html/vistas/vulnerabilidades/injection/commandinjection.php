@@ -25,7 +25,10 @@
 
       <h3>Como inyectar comandos</h3>
 
-      <p>En Linux es comun el uso de la terminal por eso, se conocen varias </p>
+      <p>En Linux es comun el uso de la terminal por eso, se conocen varias formas de inyectar otros comandos como el uso de && o || que son las mas comunes. Si se esta familiarizado con la terminal sera muy facil agregar otra inyeccion.</p>
+
+      <hr>
+      <h1>Explotacion</h1>
 
       <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
         Ingrese la ip que desea hacer ping: <input type="text" name="fname">

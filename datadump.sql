@@ -24,6 +24,14 @@ create table comentarios(
     primary key (id)
 );
 
+CREATE TABLE IF NOT EXISTS tblpasswordhistory (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  name varchar(150) DEFAULT NULL,
+  password varchar(200) DEFAULT NULL,
+  PostingDate timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  primary key(id)
+);
+
 insert into users(name, password, isAdmin) values ("admin","admin",true);
 insert into users(name, password, isAdmin) values ("mario","mario1234$",false);
 insert into users(name, password, isAdmin) values ("ramiro","ramiro123",false);
@@ -40,3 +48,10 @@ insert into products(name, price, stock) values ("Producto 7", 15, 150);
 insert into products(name, price, stock) values ("Producto 8", 13.5, 100);
 insert into products(name, price, stock) values ("Producto 9", 10, 70);
 insert into products(name, price, stock) values ("Producto 10", 5.50, 10);
+
+insert into tblpasswordhistory(name,password) values("admin","admin");
+insert into tblpasswordhistory(name,password) values("admin","abcd1234");
+insert into tblpasswordhistory(name,password) values("admin","test123");
+insert into tblpasswordhistory(name,password) values("admin","password");
+insert into tblpasswordhistory(name,password) values("admin","password1");
+insert into tblpasswordhistory(name,password) values("admin","password2");

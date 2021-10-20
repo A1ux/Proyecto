@@ -52,6 +52,7 @@
 
         <p>De esta manera es posible extraer datos de manera manual hacia la base de datos viendo que el programador no filtra sus datos. Aclarando que esta es la manera de explotar mysql claramente la sintaxis cambiara para otros gestores de base de datos.</p>
 
+        <hr>
         <h1>Explotacion</h1>
 
       <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="post">

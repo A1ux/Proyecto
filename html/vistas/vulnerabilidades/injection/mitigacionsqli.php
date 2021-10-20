@@ -29,6 +29,7 @@
 
         <pre>&dollar;price &equals; &dollar;&lowbar;POST&lsqb;&quot;precio&quot;&rsqb;&semi;&NewLine;&dollar;query &equals; &quot;SELECT &ast; FROM products where price &lt;&equals; &quest;&quot;&semi;&NewLine;&dollar;stmt &equals; &dollar;conn-&gt;prepare&lpar;&dollar;query&rpar;&semi;&NewLine;&dollar;stmt-&gt;bind&lowbar;param&lpar;&apos;d&apos;&comma; &dollar;price&rpar;&semi;&NewLine;&dollar;stmt-&gt;execute&lpar;&rpar;&semi;</pre>
 
+        <hr>
         <h2>Mitigacion de Inyeccion SQL</h2>
 
         <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="post">

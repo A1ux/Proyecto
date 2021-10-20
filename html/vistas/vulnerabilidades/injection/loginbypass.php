@@ -19,6 +19,9 @@
 
         <p>Nos damos cuenta que se inyecto la solicitud porque en una deja el inicio exitoso y en el otro no.</p>
       
+        <hr>
+        <h1>Explotacion</h1>
+        
         <div class="login">
             <div class="account-login">
                <h1>Inicio de Sesion</h1>
