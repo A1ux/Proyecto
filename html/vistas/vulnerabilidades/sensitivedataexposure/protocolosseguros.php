@@ -16,7 +16,7 @@
         </p>
 
         <p>
-            Generalmente se hace uso de certificados SSL que existen tipos como autofirmados y los generados por autoridades reconocidas. La idea es tener un certificado que permita que el trafico no se pueda capturar y que puedan ver los datos ahi transmitidos
+            Generalmente se hace uso de certificados SSL que existen tipos como auto firmados y los generados por autoridades reconocidas. La idea es tener un certificado que permita que el trafico no se pueda capturar y que puedan ver los datos ahi transmitidos
         </p>
 
         <p>

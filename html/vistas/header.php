@@ -51,8 +51,6 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="/index.php">Home</a></li>
-          <li><a href="/recursos.php">Recursos</a></li>
-          <li><a href="/herramientas.php">Herramientas</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->

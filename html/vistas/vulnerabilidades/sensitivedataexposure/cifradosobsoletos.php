@@ -13,7 +13,7 @@
 
         <p>El asegurar las comunicaciones como HTTPS no es suficiente con la generacion de certificados, tambien se deben de verificar factores como los siguientes:</p>
 
-        <h3>Versionesa debiles de SSL o TLS</h3>
+        <h3>Versiones debiles de SSL o TLS</h3>
         <ul>
             <li>SSL Version 3</li>
             <li>SSL Version 2</li>

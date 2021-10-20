@@ -15,17 +15,24 @@
 
         <p>La lista de headers que se deben de manejar son:</p>
 
-        <ul>
-            <li>httponly = true</li>
-            <li>secure = true</li>
-            <li>Strict-Transport-Security&colon; max-age&equals;&lt;expire-time&gt;&semi; includeSubDomains</li>
-        </ul>
+        <h3>X-Frame-Options</h3>
 
-        <p>Cual es la importancia de cada uno:</p>
+        <p>El encabezado de respuesta HTTP X-Frame-Options puede ser usado para indicar si deber&iacute;a permit&iacute;rsele a un navegador renderizar una p&aacute;gina en un &lt;frame&gt;&comma; &lt;iframe&gt; o &lt;object&gt; &period; Las p&aacute;ginas webs pueden usarlo para evitar ataques de clickjacking &comma; asegur&aacute;ndose que su contenido no es embebido en otros sitios&period;</p>
 
-        <p><strong>HttpOnly:</strong> Permite que las cookies solo sean leidas a traves de http ya que por medio de javascript se podria tomar una cookie por xss.</p>
-        <p><strong>Secure:</strong> Permite que las cookies solo sean transmitidas por canales seguros como HTTPS haciendo a un lado las conexiones HTTP pudiendose configurar de esa manera</p>
-        <p><strong>Strict-transport-security:</strong> Permite que el navegador debe recordar este sitio para solo poder ser accesible a traves de HTTPS</p>
+        <pre>X-Frame-Options&colon; DENY&NewLine;X-Frame-Options&colon; SAMEORIGIN&NewLine;X-Frame-Options&colon; ALLOW-FROM https&colon;&sol;&sol;example&period;com&sol;</pre>
+
+        <h3>Cookies: Secure y HttpOnly</h3>
+
+        <p>Secure: Asegura que la cookie sea transportada por HTTPS y HttpOnly que la cookie sea manejada por HTTP o HTTPS y no por javascript que podria recibir un ataque con XSS</p>
+
+        <pre>&lt;&quest;php&NewLine;&dollar;arr&lowbar;cookie&lowbar;options &equals; array &lpar;&NewLine;                &apos;expires&apos; &equals;&gt; time&lpar;&rpar; &plus; 60&ast;60&ast;24&ast;30&comma;&NewLine;                &apos;path&apos; &equals;&gt; &apos;&sol;&apos;&comma;&NewLine;                &apos;domain&apos; &equals;&gt; &apos;&period;example&period;com&apos;&comma;&NewLine;                &apos;secure&apos; &equals;&gt; true&comma;&NewLine;                &apos;httponly&apos; &equals;&gt; true&comma;    &NewLine;                &apos;samesite&apos; &equals;&gt; &apos;None&apos;&NewLine;                &rpar;&semi;&NewLine;setcookie&lpar;&apos;TestCookie&apos;&comma; &apos;The Cookie Value&apos;&comma; &dollar;arr&lowbar;cookie&lowbar;options&rpar;&semi;   &NewLine;&quest;&gt;</pre>
+
+        <h3>Strict-Transport-Security</h3>
+
+        <p>Es una característica de seguridad que permite a un sitio web indicar a los navegadores que sólo se debe comunicar con HTTPS en lugar de usar HTTP.</p>
+
+        <pre>Strict-Transport-Security&colon; max-age&equals;&lt;expire-time&gt;&NewLine;Strict-Transport-Security&colon; max-age&equals;&lt;expire-time&gt;&semi; includeSubDomains&NewLine;Strict-Transport-Security&colon; max-age&equals;&lt;expire-time&gt;&semi; preload</pre>
+        
     </div> <!--/.container -->
     </section> 
     
