@@ -11,7 +11,7 @@
           </div>
         </div>
 
-        <p>La tarea de mitigar un command injection es siempre filtrar las entradas del usuario en esta caso ya que es una ejecucion de comandos se debe escapaar y no permitir que un comando vaya concatenado a otro.</p>
+        <p>La tarea de mitigar un command injection es siempre filtrar las entradas del usuario en esta caso ya que es una ejecucion de comandos se debe escapar y no permitir que un comando vaya concatenado a otro.</p>
 
         <p>Esto se hace a traves de la propia funcion de PHP que es <strong>escapeshellarg</strong> la cual hace que la entrada del usuario no se concatene a otro comando y si se anade mas valores no permita su ejecucion solamente por el valor que se espera. Este es el codigo en funcion:</p>
 

@@ -16,8 +16,6 @@
           <li class="list-group-item list-group-item-danger"><a href="reutilizacionContrasenas.php">Reutilizacion de contraseñas</a></li>
           <li class="list-group-item list-group-item-danger"><a href="contrasenasdebiles.php">Contraseñas debiles</a></li>
           <li class="list-group-item list-group-item-danger"><a href="fuerzabruta.php">Fuerza Bruta</a></li>
-          <li class="list-group-item list-group-item-danger"><a href="recuperacioncontrasena.php">Recuperacion de contraseñas debiles</a></li>
-          <li class="list-group-item list-group-item-danger"><a href="almacenamientotextoclaro.php">Almacenamiento texto claro o encriptado sin salt</a></li> 
         </ul>        
     </div> <!--/.container -->
     </section> <!--/.container

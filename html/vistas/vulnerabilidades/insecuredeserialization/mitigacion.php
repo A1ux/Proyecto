@@ -15,6 +15,10 @@
 
         <p>En este caso se debe evitar enviar objetos serializados, lo mejor sera verificar el uso de unserialize de php y enviar todos los datos en un formato de json hacia el usuario, siempre evitando que pueda modificar esos datos que son ingresados para poder hacerse con un administrador o ejecucion de comandos.</p>
 
+        <h2>Mitigacion</h2>
+
+        <p>Es preferible que el envio de datos deberia de ser lenguajes como json para evitar que el usuario pueda modificar algo mas y poder tener funcionalidades que no necesite o hacer una ejecucion de comandos.</p>
+
     </div> <!--/.container -->
     </section> 
     

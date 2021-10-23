@@ -13,9 +13,9 @@
 
         <ul class="list-group">
           <li class="list-group-item active">Inseguridad</li>
-          <li class="list-group-item"><a href="cabeceraseguridad.php">Cabeceras de Seguridad</a></li>
-          <li class="list-group-item"><a href="softwaredesactualizado.php">Software Desactualizado</a></li>
-          <li class="list-group-item"><a href="erroresladocliente.php">Mensajes de Error de lado Cliente</a></li>
+          <li class="list-group-item list-group-item-success"><a href="cabeceraseguridad.php">Cabeceras de Seguridad</a></li>
+          <li class="list-group-item list-group-item-success"><a href="softwaredesactualizado.php">Software Desactualizado</a></li>
+          <li class="list-group-item list-group-item-success"><a href="erroresladocliente.php">Mensajes de Error de lado Cliente</a></li>
         </ul>
     </div> <!--/.container -->
     </section> <!--/.container

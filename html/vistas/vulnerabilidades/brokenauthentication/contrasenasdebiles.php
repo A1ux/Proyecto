@@ -68,10 +68,12 @@
         <pre>&lt;&quest;php&NewLine;    if &lpar;isset&lpar;&dollar;&lowbar;POST&lsqb;&apos;username&apos;&rsqb;&rpar; &amp;&amp; isset&lpar;&dollar;&lowbar;POST&lsqb;&apos;password&apos;&rsqb;&rpar;&rpar;&lcub;&NewLine;      &NewLine;   &dollar;reg &equals; &apos;&sol;&Hat;&lpar;&quest;&equals;&period;&ast;&lsqb;&excl;&commat;&num;&dollar;&percnt;&Hat;&amp;&ast;-&rsqb;&rpar;&lpar;&quest;&equals;&period;&ast;&lsqb;0-9&rsqb;&rpar;&lpar;&quest;&equals;&period;&ast;&lsqb;A-Z&rsqb;&rpar;&period;&lcub;8&comma;20&rcub;&dollar;&sol;&apos;&semi;&NewLine;   &NewLine;   if &lpar;preg&lowbar;match&lpar;&dollar;reg&comma; &dollar;&lowbar;POST&lsqb;&apos;password&apos;&rsqb;&rpar;&rpar;&lcub;&NewLine;      echo &quot;&lt;div class&equals;&bsol;&quot;alert alert-success&bsol;&quot; role&equals;&bsol;&quot;alert&bsol;&quot;&gt;Contrasena aceptable&lt;&sol;div&gt;&quot;&semi;&NewLine;   &rcub;else&lcub;&NewLine;      echo &quot;&lt;div class&equals;&bsol;&quot;alert alert-danger&bsol;&quot; role&equals;&bsol;&quot;alert&bsol;&quot;&gt;Contrasena debil&lt;&sol;div&gt;&quot;&semi;&NewLine;   &rcub;&NewLine;   &rcub;&NewLine;&quest;&gt;</pre>
 
    
+        <hr>
+        <h1>Mitigacion</h1>
 
         <div class="login">
             <div class="account-login">
-               <h1>Registrar Usuario</h1>
+               <h3>Registrar Usuario</h3>
                <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" class="login-form" method="post">
                   <div class="form-group">
                      <input type="text" placeholder="Usuario" class="form-control" name="username">

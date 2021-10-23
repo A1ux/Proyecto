@@ -15,9 +15,9 @@
 
         <ul class="list-group">
           <li class="list-group-item active">Componentes</li>
-          <li class="list-group-item"><a href="cvevulnerable.php">Sofware Vulnerable con CVE</a></li>
-          <li class="list-group-item"><a href="softnoparcheado.php">Sofware no parcheado</a></li>
-          <li class="list-group-item"><a href="noconocimientosoftware.php">No conocimiento de version de software</a></li>
+          <li class="list-group-item list-group-item-success"><a href="cvevulnerable.php">Sofware Vulnerable con CVE</a></li>
+          <li class="list-group-item list-group-item-success"><a href="softnoparcheado.php">Sofware no parcheado</a></li>
+          <li class="list-group-item list-group-item-success"><a href="noconocimientosoftware.php">No conocimiento de version de software</a></li>
         </ul>
     </div> <!--/.container -->
     </section> <!--/.container

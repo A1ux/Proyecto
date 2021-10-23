@@ -11,15 +11,22 @@
           </div>
         </div>
 
+
+        <p>El IDOR es un tipo de vulnerabilidad que ocurre cuando una aplicación le permite a un usuario acceder directamente a objetos (como recursos, funciones o archivos) en función de la consulta que éste realice, sin realizar el debido control de acceso.</p>
+        
+        Los recursos a los que podria acceder serian:
+
         <ul>
-          <li>Database data</li>
-          <li>Files</li>
-          <li>Directories</li>
+          <li>Datos</li>
+          <li>Archivos</li>
+          <li>Directorios</li>
           <li>Scripts</li>
-          <li>Functions</li>
+          <li>Funciones</li>
         </ul>
 
+        <p>En este caso se muestra la vulnerabilidad enviando una peticion para que el usuario pida los datos que tienen almacenado de si mismo en la tabla de usuarios, esto podria indicar una forma de poder editar sus datos, en la peticion se envia su id de usuario, pero si el usuario decide cambiar el valor puede ver datos de otros usuarios y eso se convierte en un IDOR ya que no deberia tener mas acceso que el de su propio usuario y puede ir recorriendo la aplicacion para tomar todos esos datos.</p>
 
+        <h1>Mitigacion</h1>
 
         Evitar mostrar referencias a objetos privados como claves o nombres de archivos.
     Verificar que el acceso a los recursos mediante IDs, tenga un paso de verificación adicional para asegurar que el usuario tenga la autorización adecuada.
@@ -28,6 +35,11 @@
 
 <pre>&lt;&quest;php&NewLine;  if &lpar;&dollar;&lowbar;SESSION&lsqb;&apos;id&apos;&rsqb; &equals; &dollar;&lowbar;GET&lsqb;&apos;id&apos;&rsqb;&rpar;&lcub;&NewLine;    echo &quot;Mostrar el resultado&quot;&semi;&NewLine;  &rcub;else&lcub;&NewLine;    echo &quot;No se tiene acceso&quot;&semi;&NewLine;  &rcub;&NewLine;&quest;&gt;</pre>
 
+
+<hr>
+<h1>IDOR</h1>
+
+<h3>Envie una peticion con el parametro id con el valor de su id de usuario</h3>
 
 <?php
 require "connection.php";
