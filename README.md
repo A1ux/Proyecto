@@ -10,28 +10,12 @@ Es un proyecto que sera ejecutado en docker para mostrar todas las vulnerabilida
 Vulnerabilidades que se piensan tratar en la web
 
 - Inyecciones
-    - SQL
-        consultas parametrizadas php
-    - noSQL
-    - LDAP
-    - XPath
-    - Command OS
 - Perdida de Autenticacion
-    - Ataques de Fuerza Bruta
-    - Contrasenas por defectol, como un diccionario conocido (proceso en db)
-    - Almacenar las contrasenas en texto claro
-    - Ausencia de autenticacion multifactor
 - Exposicion de Datos Sensibles
-    - uso de http,smtp,ftp
-    - Algoritmos debiles o antiguos
 - Entidades Externas XML (XXE)
 - Perdida de Control de Acceso
-    - 
 - Configuracion de Seguridad Incorrecta
 - Secucencia de Comandos de Sitios Cruzados (XSS)
-    - XSS Reflejado
-    - XSS Almacenado 
-    - XSS basado en DOM
 - Deserializacion Insegura
 - Componentes de vulnerabilidades Conocidas
 - Registro y Monitoreo Insuficientes
